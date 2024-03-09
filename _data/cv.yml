@@ -36,6 +36,16 @@
 - title: Experience
   type: time_table
   contents:
+      - title: PhD Intern
+      institution: Scania CV AB
+      year: 2024 - present
+      #description:
+      #  - Teaching operating systems, distributed systems, cloud computing
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+        
     - title: MSc Intern
       institution: Virgin Media
       year: 2018 - 2019
@@ -45,6 +55,7 @@
         #   contents:
         #     - Sub-description 1.
         #     - Sub-description 2.
+        
     - title: Geospatial Data Scientist
       institution: Propinquity Labs, Bengaluru
       year: 2016 - 2018
