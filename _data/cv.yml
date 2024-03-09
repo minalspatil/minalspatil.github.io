@@ -38,22 +38,22 @@
   contents:
 
     - title: PhD Intern
-      institution: Scania CV AB
+      institution: Scania CV AB, Södertälje, Sweden
       year: 2024 - present
         
     - title: MSc Intern
-      institution: Virgin Media
+      institution: Virgin Media, London, UK
       year: 2018 - 2019
 
     - title: Geospatial Data Scientist
-      institution: Propinquity Labs, Bengaluru
+      institution: Propinquity Labs, Bengaluru, India
       year: 2016 - 2018
       # description:
       #   - Description 1.
       #   - Description 2.
 
     - title: Navigation Guidance Engineer
-      institution: Sensus Labs, SF, California
+      institution: Sensus Labs, California, USA
       year: 2015 - 2016
 
 # - title: Open Source Projects
