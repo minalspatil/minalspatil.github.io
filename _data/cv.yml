@@ -36,10 +36,14 @@
 - title: Experience
   type: time_table
   contents:
-
-    - title: PhD Intern
+  
+    - title: Senior Research Engineer (Formal Methods × Generative AI)
       institution: Scania CV AB, Södertälje, Sweden
       year: 2024 - present
+      
+    - title: PhD Intern
+      institution: Scania CV AB, Södertälje, Sweden
+      year: 2024 - 2024
         
     - title: MSc Intern
       institution: Virgin Media, London, UK
