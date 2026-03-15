@@ -20,17 +20,13 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, I'm Minal!
 
-I am currently pursuing a doctorate degree in computer science at [Umeå universitet](https://www.umu.se/en/department-of-computing-science/) advised by [Kary Främling](https://www.umu.se/en/staff/kary-framling/). My PhD is in collaboration and funded by Sweden's national initiative project [Wallenberg AI, Autonomous Systems and Software Program(WASP)](https://wasp-sweden.org/) and [Knut and Alice Wallenberg Foundation (KAW)](https://kaw.wallenberg.org/en).
+I am a Senior Scientist at Infor with a background in Computer Science. My work and research sit at the intersection of formal methods, explainable AI, and adversarial robustness, focusing on building trustworthy and verifiable machine learning systems.
 
-Machine learning has made significant progress on System 1 (from Daniel Kahneman's book "Thinking, Fast and Slow") functionality - behaviours that are quick, spontaneous, and unconscious—such as object recognition, interpreting basic words, and driving vehicles in ideal roadways. Nonetheless, it still has challenges with System 2 abilities, which typically entail systematic, logical, and conscious reasoning such as programming or solving math problems. To address this, my research seeks to establish intelligent systems that reason in a precise, consistent, verifiable and interpretable manner in real-life situations. 
+At Infor, I help lead the architecture and development of AI/ML-enhanced solutions for Infor M3. I enjoy partnering with cross-functional teams to design, build, and scale cloud-native AI systems, while also helping to grow our internal AI capabilities and represent our initiatives. 
 
-My research interests lie at the intersection between Formal Methods and Software Engineering, particularly in applying formal methods to software systems with components generated via machine learning. 
+During my doctoral studies and my time at Scania, I worked on AI-enabled toolchains for generating safety-critical automotive software. This involved combining large language models with formal verification to produce code that is functionally correct and compliant with rigorous industry standards like ISO-26262 and MISRA-C.
 
-My research is also focussed on addressing societal concerns pertinent to algorithm-led decisions in the public and private sector:
-
-- What are the implications of issues around algorithmic transparency and explainability?
-- How can we guarantee machine learning models and their explanations are robust to adversarial attacks?
-- How do we check datasets for bias or incompleteness, and how do we tackle these where we find them?
+Ultimately, I love working at the boundary of research and engineering, especially on problems where correctness guarantees truly matter! 
 
 <!-- You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. 
 
