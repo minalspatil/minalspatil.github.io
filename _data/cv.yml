@@ -14,8 +14,8 @@
     - title: PhD in Computer Science
       institution: Umeå universitet, Sweden
       year: 2020- 2024
-      description:
-        - "Title: On The Role of Formal Methods For Safe ML "
+     # description:
+     #   - "Title: On The Role of Formal Methods For Safe ML "
       #   - Description 2.
       #   - title: Description 3.
       #     contents:
@@ -36,28 +36,32 @@
 - title: Experience
   type: time_table
   contents:
+
+    - title: Senior Scientist
+      institution: Infor, Stockholm, Sweden
+      year: 2026 - present
   
-    - title: Senior Research Engineer (Formal Methods × Generative AI)
-      institution: Scania CV AB, Södertälje, Sweden
-      year: 2024 - present
+    - title: Senior Machine Learning Engineer (Formal Methods × Generative AI)
+      institution: Scania CV AB, Stockholm, Sweden
+      year: 2024 - 2026
       
     - title: PhD Intern
-      institution: Scania CV AB, Södertälje, Sweden
+      institution: Scania CV AB, Stockholm, Sweden
       year: 2024 - 2024
         
     - title: MSc Intern
       institution: Virgin Media, London, UK
       year: 2018 - 2019
 
-    - title: Geospatial Data Scientist
+    - title: Data Scientist
       institution: Propinquity Labs, Bengaluru, India
       year: 2016 - 2018
       # description:
       #   - Description 1.
       #   - Description 2.
 
-    - title: Navigation Guidance Engineer
-      institution: Sensus Labs, California, USA
+    - title: Data Scientist
+      institution: Sensus Labs, Bengaluru, India
       year: 2015 - 2016
 
 # - title: Open Source Projects
