@@ -20,9 +20,9 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, I'm Minal!
 
-I'm a Senior Scientist at Infor, where I lead AI/ML development for Infor M3. I focus on building AI systems that are transparent, reliable, and safe.
+I'm a Senior Scientist at Infor, where I lead AI/ML development for Infor M3, focusing on building AI systems that are transparent, reliable, and safe.
 
-Previously at TRATON, I used AI to generate safety-critical automotive software, combining large language models with formal verification to meet strict industry standards.
+Previously, my work at TRATON focused on the intersection of AI and automotive engineering, where I designed and developed AI-based toolchains combining large language models with formal verification to automate the generation, testing, and verification of safety-critical code, ensuring compliance with industry safety standards such as ISO 26262.
 
 I like working where research meets engineering, especially on problems where correctness matters.
 
