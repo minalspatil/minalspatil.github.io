@@ -18,13 +18,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, I'm Minal!
+Hi, I'm Minal.
 
-I'm a Senior Scientist at Infor, where I lead AI/ML development for Infor M3, focusing on building AI systems that are transparent, reliable, and safe.
+I'm a Senior Scientist at Infor, leading AI/ML for Infor M3.
 
-Previously, my work at TRATON focused on the intersection of AI and automotive engineering, where I designed and developed AI-based toolchains combining large language models with formal verification to automate the generation, testing, and verification of safety-critical code, ensuring compliance with industry safety standards such as ISO 26262.
+Before this, at TRATON, I built AI toolchains that paired large language models with formal verification to generate, test, and verify safety-critical automotive code under standards like ISO 26262.
 
-I like working where research meets engineering, especially on problems where correctness matters.
+I like working where research meets engineering, especially when correctness matters.
 
 <!-- You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. 
 
