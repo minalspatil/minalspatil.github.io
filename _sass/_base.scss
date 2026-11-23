@@ -4,6 +4,35 @@
 
 // Typography
 
+$font-family-main: "Source Code Pro", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+td,
+th,
+.navbar,
+.nav-link,
+.btn,
+.post-title,
+.post-description,
+footer,
+button,
+input,
+textarea {
+  font-family: $font-family-main;
+}
+
+body {
+  line-height: 1.7;
+}
+
 p,
 h1,
 h2,
