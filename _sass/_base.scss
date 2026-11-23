@@ -386,22 +386,109 @@ footer.sticky-bottom {
 
 // CV
 
+.cv-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  .post-title {
+    margin-bottom: 0;
+  }
+
+  .post-description {
+    flex-basis: 100%;
+  }
+}
+
+.cv-pdf-btn {
+  border: 1px solid var(--global-theme-color);
+  color: var(--global-theme-color);
+  background: transparent;
+  text-transform: none;
+  letter-spacing: 0;
+
+  &:hover,
+  &:focus {
+    background: var(--global-theme-color);
+    color: var(--global-bg-color);
+  }
+}
+
 .cv {
+  margin-top: 1rem;
   margin-bottom: 40px;
 
-  .card {
-    background-color: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
+  .cv-section {
+    margin-top: 2.25rem;
+  }
 
-    .list-group-item {
-      background-color: inherit;
-      border-color: var(--global-divider-color);
+  .cv-section-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--global-theme-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
 
-      .badge {
-        color: var(--global-card-bg-color) !important;
-        background-color: var(--global-theme-color) !important;
-      }
+  .cv-timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cv-item {
+    display: grid;
+    grid-template-columns: 9.5rem 1fr;
+    column-gap: 1.5rem;
+    padding: 1rem 0;
+
+    & + .cv-item {
+      border-top: 1px solid var(--global-divider-color);
     }
+  }
+
+  .cv-date {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    padding-top: 0.15rem;
+    white-space: nowrap;
+  }
+
+  .cv-body {
+    min-width: 0;
+  }
+
+  .cv-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0 0 0.2rem;
+    color: var(--global-text-color);
+    overflow-wrap: anywhere;
+  }
+
+  .cv-institution {
+    font-size: 0.95rem;
+    color: var(--global-text-color-light);
+    overflow-wrap: anywhere;
+  }
+
+  .cv-points {
+    margin: 0.6rem 0 0;
+    padding-left: 1.1rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .cv .cv-item {
+    grid-template-columns: 1fr;
+    row-gap: 0.25rem;
   }
 }
 
