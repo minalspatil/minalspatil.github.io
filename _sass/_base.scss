@@ -484,6 +484,35 @@ footer.sticky-bottom {
     padding-left: 1.1rem;
     font-size: 0.95rem;
   }
+
+  .cv-summary {
+    margin: 1rem 0 0;
+  }
+
+  .cv-skills {
+    margin: 0;
+  }
+
+  .cv-skill {
+    padding: 0.75rem 0;
+
+    & + .cv-skill {
+      border-top: 1px solid var(--global-divider-color);
+    }
+
+    dt {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--global-text-color);
+      margin: 0 0 0.15rem;
+    }
+
+    dd {
+      font-size: 0.95rem;
+      color: var(--global-text-color-light);
+      margin: 0;
+    }
+  }
 }
 
 @media (max-width: 575px) {
