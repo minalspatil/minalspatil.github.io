@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Minal
 middle_name: Suresh
 last_name: Patil
-email: minalsp@cs.umu.se
+email: minalsp@outlook.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Minal Suresh Patil, Senior Scientist at Infor, working on AI/ML, LLMs and formal verification for safety-critical software
 footer_text: >
