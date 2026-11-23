@@ -8,11 +8,11 @@ middle_name: Suresh
 last_name: Patil
 email: minalsp@outlook.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Minal Suresh Patil, Senior Scientist at Infor, working on AI/ML, LLMs and formal verification for safety-critical software
+  Minal Suresh Patil, Senior Scientist at Infor, working on AI/ML, LLMs, formal verification, and knowledge engineering
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: minal-suresh-patil, formal-methods, assured-autonomy  # add your own keywords or leave empty
+keywords: minal-suresh-patil, formal-methods, assured-autonomy, llms, knowledge-engineering  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ☸️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

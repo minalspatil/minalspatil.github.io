@@ -21,10 +21,12 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, I'm Minal.
 
-I'm a Senior Scientist at Infor, leading AI/ML for Infor M3.
+I'm a Senior Scientist at Infor, leading AI/ML and knowledge engineering for Infor M3.
 
 Before this, at Scania (part of the TRATON Group), I built AI toolchains that paired large language models with formal verification to generate, test, and verify safety-critical automotive code under standards like ISO 26262.
 
 My PhD at Umeå University focused on formal methods for safe machine learning: neural network verification, adversarial robustness, and explainability.
+
+My work sits at the intersection of AI/ML, large language models, formal verification, and knowledge engineering.
 
 I like working where research meets engineering, especially when correctness matters.
