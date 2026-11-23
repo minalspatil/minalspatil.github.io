@@ -4,7 +4,8 @@
 
 // Typography
 
-$font-family-main: "Source Code Pro", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+$font-family-main: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-heading: "Source Serif 4", "Iowan Old Style", Georgia, "Times New Roman", serif;
 
 body,
 h1,
@@ -31,6 +32,19 @@ textarea {
 
 body {
   line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title {
+  font-family: $font-family-heading;
+  letter-spacing: -0.01em;
 }
 
 p,
@@ -425,6 +439,7 @@ footer.sticky-bottom {
   }
 
   .cv-section-title {
+    font-family: $font-family-main;
     font-size: 1.1rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -465,6 +480,7 @@ footer.sticky-bottom {
   }
 
   .cv-title {
+    font-family: $font-family-main;
     font-size: 1.05rem;
     font-weight: 600;
     line-height: 1.4;
@@ -501,6 +517,7 @@ footer.sticky-bottom {
     }
 
     dt {
+      font-family: $font-family-main;
       font-size: 1rem;
       font-weight: 600;
       color: var(--global-text-color);
