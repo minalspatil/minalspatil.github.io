@@ -1,0 +1,8 @@
+<dl class="cv-skills">
+  {% for skill in entry.contents %}
+    <div class="cv-skill">
+      <dt>{{ skill.name }}</dt>
+      <dd>{{ skill.value }}</dd>
+    </div>
+  {% endfor %}
+</dl>
