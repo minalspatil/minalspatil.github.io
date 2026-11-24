@@ -1249,3 +1249,38 @@ nav[data-toggle="toc"] {
     }
   }
 }
+
+// Accessibility: skip link and visible keyboard focus
+.skip-link {
+  position: absolute;
+  top: 0.75rem;
+  left: -9999px;
+  z-index: 2000;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--global-theme-color);
+  border-radius: 4px;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  font-size: 0.9rem;
+
+  &:focus {
+    left: 1rem;
+    text-decoration: none;
+  }
+}
+
+main:focus {
+  outline: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+.btn:focus-visible,
+summary:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+[tabindex]:not([tabindex="-1"]):focus-visible {
+  outline: 2px solid var(--global-theme-color) !important;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
