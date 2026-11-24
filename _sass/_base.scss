@@ -1218,17 +1218,7 @@ nav[data-toggle="toc"] {
   font-weight: 600;
 }
 
-// Homepage: current focus and quick links
-.home-now {
-  margin: 1.5rem 0 1rem;
-  padding-left: 1rem;
-  border-left: 3px solid var(--global-theme-color);
-
-  p {
-    margin-bottom: 0.4rem;
-  }
-}
-
+// Homepage: quick links
 .home-links {
   margin-bottom: 1.5rem;
 
