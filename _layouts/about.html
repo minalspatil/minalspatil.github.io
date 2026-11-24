@@ -8,7 +8,7 @@ layout: default
           <h1 class="post-title">
            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
-          <p class="desc">{{ page.subtitle }}</p>
+          {%- if page.subtitle and page.subtitle != blank %}<p class="desc">{{ page.subtitle }}</p>{% endif %}
         </header>
 
         <article>
@@ -28,7 +28,7 @@ layout: default
               class=profile_image_class
               alt=page.profile.alt -%}
             {% endif -%}
-            {%- if page.profile.address %}
+            {%- if page.profile.address and page.profile.address != blank %}
             <div class="address">
               {{ page.profile.address }}
             </div>

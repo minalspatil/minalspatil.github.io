@@ -31,6 +31,7 @@ textarea {
 }
 
 body {
+  font-size: 1.0625rem;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -158,7 +159,10 @@ blockquote {
 // Profile
 
 .profile {
-  width: 100%;
+  width: 55%;
+  max-width: 220px;
+  margin: 0 auto 1.25rem;
+  float: none !important;
 
   .address {
     margin-bottom: 5px;
@@ -172,17 +176,26 @@ blockquote {
   }
 }
 
-.profile.float-right {
-  margin-left: 1rem;
-}
-
+.profile.float-right,
 .profile.float-left {
-  margin-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 24%;
+    max-width: 230px;
+    margin: 0.25rem 0 1rem;
+    float: left !important;
+
+    &.float-left {
+      margin-right: 1.75rem;
+    }
+
+    &.float-right {
+      margin-left: 1.75rem;
+    }
 
     .address {
       p {
@@ -371,7 +384,8 @@ blockquote {
 
 
 // Footer
-footer.fixed-bottom {
+footer.fixed-bottom,
+footer.sticky-bottom {
   background-color: var(--global-footer-bg-color);
   border-top: 1px solid var(--global-divider-color);
   font-size: 0.75rem;
@@ -392,12 +406,6 @@ footer.fixed-bottom {
   }
 }
 
-footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
-}
 
 // CV
 
@@ -1196,5 +1204,48 @@ nav[data-toggle="toc"] {
     font-size: 0.875rem;
     margin-bottom: 0;
     padding-top: 0.5rem;
+  }
+}
+
+// Readable line length for running text
+.post .clearfix > p,
+.cv-summary,
+.cv-points li {
+  max-width: 72ch;
+}
+
+.cv-points strong {
+  font-weight: 600;
+}
+
+// Homepage: current focus and quick links
+.home-now {
+  margin: 1.5rem 0 1rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--global-theme-color);
+
+  p {
+    margin-bottom: 0.4rem;
+  }
+}
+
+.home-links {
+  margin-bottom: 1.5rem;
+
+  .btn {
+    margin: 0 0.4rem 0.4rem 0;
+    padding: 0.3rem 0.8rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 4px;
+    color: var(--global-text-color);
+    font-size: 0.85rem;
+    text-transform: none;
+    background: transparent;
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
   }
 }

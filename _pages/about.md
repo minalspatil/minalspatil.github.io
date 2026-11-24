@@ -10,7 +10,6 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   alt: Photo of Minal Suresh Patil
-  address: >
 
 
 news: false  # includes a list of news items
@@ -30,3 +29,11 @@ My PhD at Umeå University focused on formal methods for safe machine learning: 
 My work sits at the intersection of AI/ML, large language models, formal verification, and knowledge engineering.
 
 I like working where research meets engineering, especially when correctness matters.
+
+<div class="home-now" markdown="1">
+**Now:** building knowledge graphs and agentic systems for natural-language querying of structured business data.
+
+**Latest paper:** [Generating Safety-Critical Automotive C-programs using LLMs with Formal Verification](https://proceedings.mlr.press/v284/sevenhuijsen25a.html), NeSy 2025.
+</div>
+
+<p class="home-links"><a href="{{ '/assets/pdf/MSP.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Download CV (PDF)</a> <a href="{{ '/cv/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">View CV</a> <a href="{{ '/publications/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">All publications</a></p>
