@@ -29,5 +29,3 @@ My PhD at Umeå University focused on formal methods for safe machine learning: 
 My work sits at the intersection of AI/ML, large language models, formal verification, and knowledge engineering.
 
 I like working where research meets engineering, especially when correctness matters.
-
-<p class="home-links"><a href="{{ '/assets/pdf/MSP.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Download CV (PDF)</a> <a href="{{ '/cv/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">View CV</a> <a href="{{ '/publications/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">All publications</a></p>

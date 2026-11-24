@@ -1218,28 +1218,6 @@ nav[data-toggle="toc"] {
   font-weight: 600;
 }
 
-// Homepage: quick links
-.home-links {
-  margin-bottom: 1.5rem;
-
-  .btn {
-    margin: 0 0.4rem 0.4rem 0;
-    padding: 0.3rem 0.8rem;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 4px;
-    color: var(--global-text-color);
-    font-size: 0.85rem;
-    text-transform: none;
-    background: transparent;
-
-    &:hover {
-      border-color: var(--global-theme-color);
-      color: var(--global-theme-color);
-      text-decoration: none;
-    }
-  }
-}
-
 // Accessibility: skip link and visible keyboard focus
 .skip-link {
   position: absolute;
