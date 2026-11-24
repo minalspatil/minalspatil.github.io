@@ -24,7 +24,7 @@
                     {% endfor %}
                   </ul>
                 {% else %}
-                  {{ item }}
+                  {{ item | markdownify | remove: '<p>' | remove: '</p>' | strip }}
                 {% endif %}
               </li>
             {% endfor %}

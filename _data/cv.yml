@@ -26,24 +26,24 @@
       institution: Infor, Stockholm, Sweden
       year: 2026 - present
       description:
-        - "Lead the enterprise ontology catalog for M3 across taxonomies, controlled vocabularies, and property graph models, setting the modeling standards and reusable patterns other teams build against."
-        - "Architect the semantic layer connecting M3's data stores, APIs, and MCP servers to the ontology, with single-source mappings into RDF/SPARQL and Neo4j/Cypher, SHACL validation, and entity resolution at ingest."
-        - "Orchestrate tool-calling agents on AWS Bedrock AgentCore, compiling their validated plans into Arazzo workflow specifications so every M3 API call runs through a deterministic, auditable workflow rather than straight from LLM output."
+        - "**Lead the enterprise ontology catalog** for M3 across taxonomies, controlled vocabularies, and property graph models, setting the modeling standards and reusable patterns other teams build against."
+        - "**Architect the semantic layer** connecting M3's data stores, APIs, and MCP servers to the ontology, with single-source mappings into RDF/SPARQL and Neo4j/Cypher, SHACL validation, and entity resolution at ingest."
+        - "**Orchestrate tool-calling agents** on AWS Bedrock AgentCore, compiling their validated plans into Arazzo workflow specifications so every M3 API call runs through a deterministic, auditable workflow rather than straight from LLM output."
 
     - title: Senior ML Engineer
       institution: Scania CV AB, Stockholm, Sweden
       year: 2024 - 2026
       description:
-        - "Led engineering and research teams in a SAFe organization to ship a production LLM code-generation toolchain for ISO 26262-compliant automotive C code, owning delivery from fine-tuning and evaluation through deployment."
-        - "Designed the agentic code-generation pipeline, translating formal and natural-language requirements into C code with Frama-C deductive verification in the loop to prove functional correctness."
-        - "Built the MLOps and QA layer for generated code: MISRA C static analysis, retrieval of relevant coding standards fed back to the model during generation, and maintainability metrics tracking."
+        - "**Led engineering and research teams** in a SAFe organization to ship a production LLM code-generation toolchain for ISO 26262-compliant automotive C code, owning delivery from fine-tuning and evaluation through deployment."
+        - "**Designed the agentic code-generation pipeline**, translating formal and natural-language requirements into C code with Frama-C deductive verification in the loop to prove functional correctness."
+        - "**Built the MLOps and QA layer** for generated code: MISRA C static analysis, retrieval of relevant coding standards fed back to the model during generation, and maintainability metrics tracking."
 
     - title: PhD Research Intern
       institution: Scania CV AB, Södertälje, Sweden
       year: 2024
       description:
-        - "Led development of Spec2code, a framework that uses LLMs to generate secure C code from formal and informal specifications."
-        - "Benchmarked state-of-the-art LLMs against traditional synthesis tools on a curated dataset of specifications, using Frama-C deductive verification to confirm functional correctness."
+        - "**Led development of Spec2code**, a framework that uses LLMs to generate secure C code from formal and informal specifications."
+        - "**Benchmarked state-of-the-art LLMs** against traditional synthesis tools on a curated dataset of specifications, using Frama-C deductive verification to confirm functional correctness."
 
     - title: MSc Intern
       institution: Virgin Media, London, UK
@@ -53,17 +53,17 @@
       institution: Propinquity Labs, Bengaluru, India
       year: 2016 - 2018
       description:
-        - "Developed machine learning models with scikit-learn and TensorFlow to analyze Landsat and Sentinel imagery, improving land classification accuracy by 15%."
-        - "Built U-Net and Mask R-CNN models in PyTorch for segmentation and object detection in aerial imagery, integrated them into QGIS, and cut manual annotation time by 40%."
-        - "Built a cloud-native ML pipeline on AWS (S3, Lambda, SageMaker) to process terabytes of satellite and vector data for model training and inference."
+        - "**Developed machine learning models** with scikit-learn and TensorFlow to analyze Landsat and Sentinel imagery, improving land classification accuracy by 15%."
+        - "**Built U-Net and Mask R-CNN models** in PyTorch for segmentation and object detection in aerial imagery, integrated them into QGIS, and cut manual annotation time by 40%."
+        - "**Built a cloud-native ML pipeline** on AWS (S3, Lambda, SageMaker) to process terabytes of satellite and vector data for model training and inference."
 
     - title: Data Scientist
       institution: Sensus Labs, Bengaluru, India
       year: 2015 - 2016
       description:
-        - "Trained TensorFlow and Keras models to estimate user location from smartphone sensor data, improving accuracy by 23%, and deployed them for on-device inference."
-        - "Implemented Extended Kalman Filters (EKFs) in C++ and Python for indoor navigation, fusing inertial sensors, Wi-Fi fingerprinting, and Bluetooth Low Energy beacons, and integrated them into Android SDKs."
-        - "Improved positioning accuracy by 28% on resource-constrained mobile devices by tuning EKF parameters and adapting covariances (NumPy, SciPy)."
+        - "**Trained TensorFlow and Keras models** to estimate user location from smartphone sensor data, improving accuracy by 23%, and deployed them for on-device inference."
+        - "**Implemented Extended Kalman Filters (EKFs)** in C++ and Python for indoor navigation, fusing inertial sensors, Wi-Fi fingerprinting, and Bluetooth Low Energy beacons, and integrated them into Android SDKs."
+        - "**Improved positioning accuracy by 28%** on resource-constrained mobile devices by tuning EKF parameters and adapting covariances (NumPy, SciPy)."
 
 - title: Technical Skills
   type: skills
