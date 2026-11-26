@@ -7,7 +7,7 @@ first_name: Minal
 middle_name: Suresh
 last_name: Patil
 email: minalsp@outlook.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: >- # the ">-" symbol folds lines and drops the trailing newline, which would break the JSON-LD block
   Minal Suresh Patil, Senior Scientist at Infor, working on AI/ML, LLMs, formal verification, and knowledge engineering
 footer_text: >
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
