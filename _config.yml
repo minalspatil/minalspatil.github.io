@@ -66,6 +66,11 @@ max_width: 800px
 # Display links to the page with a preview object on social media.
 serve_og_meta: true  # Include Open Graph meta tags in the HTML head
 serve_schema_org: true  # Include Schema.org in the HTML head
+schema_person: # used for the Person structured data on the homepage
+  job_title: Senior Scientist
+  works_for: Infor
+  alumni_of: [Umeå University, University College London, Rashtreeya Vidyalaya College of Engineering]
+  knows_about: [Artificial intelligence, Machine learning, Large language models, Formal verification, Knowledge engineering, Knowledge graphs]
 og_image: https://minalspatil.github.io/assets/img/og-card.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
