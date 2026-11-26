@@ -1,6 +1,7 @@
 ---
 layout: about
 title: about
+seo_title: Minal Suresh Patil | AI/ML and Knowledge Engineering
 permalink: /
 # subtitle: <b>Doctoral Candidate</b> @ <a href="https://www.umu.se/en/research/groups/xai--explainable-ai/">Umeå universitet</a> &#x2022; <b>MSc</b> from <a href="https://www.ucl.ac.uk/bartlett/casa/bartlett-centre-advanced-spatial-analysis/">University College London</a>
 
